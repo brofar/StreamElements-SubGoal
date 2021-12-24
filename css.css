@@ -13,13 +13,13 @@
   width: 100%;
   margin-bottom: 20px;
 }
-.cssProgress .progress {
+.progress {
   position: fixed;
   bottom: 0;
   overflow: hidden;
   width: 100%;
 }
-.cssProgress .cssProgress-bar {
+.bar {
   display: block;
   float: left;
   width: 0%;
@@ -37,7 +37,7 @@
   background-color: #EEE;
   box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
 }
-.progress1 .cssProgress-bar {
+.progress .bar {
   height: {{barHeight}}px;
 }
 

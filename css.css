@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400');
+/* -----------------------------------------------------
+    Progress bar styles from: 
+    Pure CSS Progress Bars https://github.com/rkchauhan/pure-css-progress-bars/
+-------------------------------------------------------- */
+/* -----------------------------------------------------
+	CSS Progress Bars
+-------------------------------------------------------- */
+* {
+  margin: 0;
+}
+.cssProgress {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.cssProgress .progress {
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+  width: 100%;
+}
+.cssProgress .cssProgress-bar {
+  display: block;
+  float: left;
+  width: 0%;
+  height: 100%;
+  background: #3798d9;
+  box-shadow: inset 0px -1px 2px rgba(0, 0, 0, 0.1);
+  transition: width 0.8s ease-in-out;
+  background-color: #ffb74d !important;
+}
+
+/* -----------------------------------------------------
+	Progress Bar
+-------------------------------------------------------- */
+.progress {
+  background-color: #EEE;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.progress1 .cssProgress-bar {
+  height: {{barHeight}}px;
+}
+
+/* -----------------------------------------------------
+	Message
+-------------------------------------------------------- */
+#message {
+  position: fixed;
+  right: 4px;
+  bottom: calc({{barHeight}}px + 1px);
+  color: white;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  text-align: right;
+  pointer-events: none;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,19 @@
+{
+    "subGoal": {
+      "type": "number",
+      "label": "Subscriber Goal",
+      "value": 5,
+      "group": "General"
+    },
+    "goalText": {
+      "type": "text",
+      "label": "Goal Text",
+      "group": "General"
+    },
+    "barHeight": {
+      "type": "number",
+      "label": "Progress Bar Height (in px)",
+      "value": 3,
+      "group": "General"
+    }
+  }
